@@ -21,7 +21,11 @@ end
 gem 'jquery-rails'
 
 group :test, :development do
-    gem "rspec-rails", "~> 2.0"
+  gem "rspec-rails", "~> 2.0"
+end
+
+group :development do
+  gem 'haml-rails'
 end
 
 # To use ActiveModel has_secure_password
